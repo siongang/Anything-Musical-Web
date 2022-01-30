@@ -3,41 +3,91 @@
     text-align: center;
 }
 
-html{
+html,body{
     background-color: rgb(245, 216, 175);
+    height: 100%;
 }
 
-nav ul {
+.nav ul {
     margin: 0;
 }
 
-nav li{
+.nav li{
     display: inline;
 }
 
-nav a{
+.nav a{
     display: inline-block;
     padding: .2em;
     font-size: 1.8em;
     color: white;
     text-decoration: none;
 }
-nav a:hover{  
+.nav a:hover{  
     background-color: rgba(255,255,255,.3);
 }
 
-nav {   
+.main-nav {   
     text-align: center;
-    font-size: 1.1;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255,255,255, .3);
+}
+
+.main-nav li {
+    padding: 0 5%;
 }
 
 .title{
+    text-align: center;
     margin: 0.7em;
     font-size: 3em;
+ 
 }
 
-.members{
-    margin: 1en;
-    padding: 0 4.5em;
+.members-text{
+    margin:auto;
+    
+}
+
+section{
+    min-height: 100%;
+    position: relative;
+    padding-bottom: -500px;
+}
+
+.content-wrap{
+    padding-bottom: 5.1rem;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 4.5;
+
+}
+.main-footer{
+    background-color:rgba(255,255,255,.35) ;
+    color: black;
+    
+    padding: 0 10;
+    font-size: .4em;
+    text-align: center;
+
+    
+}
+
+.main-footer-container{
+    display: flex; /*a layout element*/
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer-nav li{
+    padding: 0 2em;
+}
+.footer-nav img{
+    width: 30px;
 }
 
