@@ -1,0 +1,43 @@
+*{
+    font-family: 'Courier New';
+    text-align: center;
+}
+
+html{
+    background-color: rgb(245, 216, 175);
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    display: inline-block;
+    padding: .2em;
+    font-size: 1.8em;
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{  
+    background-color: rgba(255,255,255,.3);
+}
+
+nav {   
+    text-align: center;
+    font-size: 1.1;
+}
+
+.title{
+    margin: 0.7em;
+    font-size: 3em;
+}
+
+.members{
+    margin: 1en;
+    padding: 0 4.5em;
+}
+
