@@ -38,29 +38,24 @@ html,body{
 }
 
 .title{
-    text-align: center;
-    margin: 0.7em;
     font-size: 3em;
- 
 }
 
-.members-text{
-    margin:auto;
-    
+body{ /*uses flexbox layout that stretched body section*/
+    display: flex;
+    flex-direction: column;
 }
 
-section{
-    min-height: 100%;
-    position: relative;
-    padding-bottom: -500px;
+section{ /*grows the flexbox layout*/
+    flex-grow:1;   
 }
 
 .content-wrap{
-    padding-bottom: 5.1rem;
+    padding: 0 1em;
 }
 
 footer{
-    position: absolute;
+    
     bottom: 0;
     width: 100%;
     height: 4.5;
