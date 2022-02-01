@@ -1,6 +1,7 @@
 *{
     font-family: 'Courier New';
     text-align: center;
+    
 }
 
 html,body{
@@ -51,11 +52,22 @@ section{ /*grows the flexbox layout*/
 }
 
 .content-wrap{
-    padding: 0 1em;
+   
+    background-color: #ffefd5;
+    border-style: groove;
+    border-radius:4px;
+    margin: 10px 10%;
+    padding: 0 15px;
+    padding-bottom: 15px;
+}
+
+.content-wrap img{
+    margin: 10px;
+
+    width: 50%;
 }
 
 footer{
-    
     bottom: 0;
     width: 100%;
     height: 4.5;
