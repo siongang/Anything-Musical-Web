@@ -21,7 +21,7 @@ html,body{
     display: inline-block;
     padding: .2em;
     font-size: 1.8em;
-    color: white;
+    color: white; 
     text-decoration: none;
 }
 .nav a:hover{  
@@ -38,50 +38,87 @@ html,body{
     padding: 0 5%;
 }
 
-.title{
+.title {
     font-size: 3em;
 }
 
-body{ /*uses flexbox layout that stretched body section*/
+body { /*uses flexbox layout that stretched body section*/
     display: flex;
     flex-direction: column;
 }
 
-section{ /*grows the flexbox layout*/
+section { /*grows the flexbox layout*/
     flex-grow:1;   
 }
 
+
+
 .content-wrap{
-   
     background-color: #ffefd5;
     border-style: groove;
     border-radius:4px;
-    margin: 10px 10%;
-    padding: 0 15px;
+    margin: 20px 15%;
+    padding: 0 30px;
     padding-bottom: 15px;
 }
 
 .content-wrap img{
     margin: 10px;
-
-    width: 50%;
+    width: 40%;
 }
 
+.home-content {
+    text-align: left;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .3em;
+    cursor: pointer;
+}
+
+.home-row {
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.home-row:last-child {
+    border-bottom: none;
+}
+
+.home-item {
+    display: inline-block;
+    padding-right: .5em;
+}
+.home-date {
+    font-weight: bold;
+    width:30%;
+}
+.home-title{
+
+    width: 30%;
+
+}
+.home-btn{
+    max-width: 30%;
+}
 footer{
+    margin: 0;
     bottom: 0;
     width: 100%;
     height: 4.5;
 
 }
 .main-footer{
+ 
     background-color:rgba(255,255,255,.35) ;
     color: black;
     
     padding: 0 10;
     font-size: .4em;
     text-align: center;
-
-    
 }
 
 .main-footer-container{
@@ -94,6 +131,7 @@ footer{
 .footer-nav li{
     padding: 0 2em;
 }
+
 .footer-nav img{
     width: 30px;
 }
